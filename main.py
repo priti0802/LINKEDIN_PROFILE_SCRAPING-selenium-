@@ -125,21 +125,6 @@ def file_save():
         pass
        
 file_save()
-# def file_save2():
-#     try:
-        
-#         f = asksaveasfile(mode='w', initialfile=os.path.basename(filename).split(".")[0]+"_not_included"+".txt", defaultextension=".txt")
-#         if f is None: # asksaveasfile return `None` if dialog closed with "cancel".
-#             return
-    
-#         for i in not_inc:
-#             f.write(str(i)+'\r\n')
-#         f.close()
-#         pass
-#     except:
-#         pass
-       
-# file_save2()
 
 
 
